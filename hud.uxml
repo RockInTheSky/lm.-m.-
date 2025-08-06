@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/hud.uss?fileID=7433441132597879392&amp;guid=3d095d1f5e2636cf4a053ee767374755&amp;type=3#hud" />
+    <ui:VisualElement name="hud" class="hud" style="flex-grow: 1;">
+        <ui:Label name="hp-label" text="HP" class="hp-label" />
+        <ui:Label name="ammo-label" text="Ammo" class="ammo-label" />
+        <ui:Label text="Money" name="money-label" class="money-label" />
+    </ui:VisualElement>
+</ui:UXML>
